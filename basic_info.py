@@ -11,8 +11,10 @@ def get_currency_title(currency):
 
 def get_currency_subtitle(currency):
     postfix = OrderedDict([
+        ('rank', ""),
         ('symbol', ""),
         ('price_usd', "$"),
+        ('price_btc', "₿"),
         ('percent_change_1h', "%(1h)"),
         ('percent_change_24h', "%(24h)"),
         ('percent_change_7d', "%(7d)"),
